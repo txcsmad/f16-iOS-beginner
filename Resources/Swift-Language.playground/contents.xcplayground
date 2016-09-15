@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='osx' display-mode='rendered'>
+    <pages>
+        <page name='P00-Table-of-Contents'/>
+        <page name='P01-Var-and-Let'/>
+        <page name='P02-Types'/>
+        <page name='P03-Strings'/>
+        <page name='P04-Optionals'/>
+        <page name='P05-Arrays'/>
+        <page name='P06-Dictionaries'/>
+        <page name='P07-Tuples'/>
+        <page name='P08-Control-Flow'/>
+        <page name='P09-Functions'/>
+        <page name='P10-Enumerations'/>
+        <page name='P11-Classes-and-Structs'/>
+        <page name='P12-Initializers'/>
+        <page name='P13-Static-Properties'/>
+        <page name='P14-Challenge'/>
+        <page name='P15-Protocols'/>
+    </pages>
+</playground>
