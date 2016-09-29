@@ -1,6 +1,6 @@
 # There's Always Money in the Banana Stand
 
-Workshop 2. Thursday, September 22, 2016.
+Workshop 3. Thursday, September 29, 2016.
 
 ## Resources
 

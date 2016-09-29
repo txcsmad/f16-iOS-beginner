@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Directory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d50-iZ-u0f">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="8ZP-R9-5R1"/>
+                                    <constraint firstAttribute="width" constant="100" id="w6v-Y8-cwe"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Last" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Upa-Qg-TL6">
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cnl-cV-ryL">
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vL-no-MUs">
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UwL-1i-QZL">
+                                <mutableString key="text">Bacon ipsum dolor amet hamburger chicken filet mignon pork chop, short loin shoulder kielbasa. Ground round sausage frankfurter hamburger fatback. Leberkas frankfurter picanha biltong beef ball tip tri-tip pork belly brisket porchetta chicken cow sausage chuck. Chuck filet mignon landjaeger tongue bacon andouille doner pork loin. Fatback tongue t-bone kevin, turducken sirloin prosciutto leberkas rump drumstick strip steak filet mignon pork chop. Pork shankle ham strip steak, spare ribs frankfurter sirloin ribeye. Venison boudin ground round beef alcatra.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Cnl-cV-ryL" firstAttribute="leading" secondItem="Upa-Qg-TL6" secondAttribute="leading" id="1Cu-7d-VOa"/>
+                            <constraint firstItem="d50-iZ-u0f" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="8s0-hF-9in"/>
+                            <constraint firstItem="3vL-no-MUs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="KPT-mZ-F8t"/>
+                            <constraint firstItem="Upa-Qg-TL6" firstAttribute="leading" secondItem="d50-iZ-u0f" secondAttribute="trailing" constant="16" id="N7L-yj-1KP"/>
+                            <constraint firstItem="Cnl-cV-ryL" firstAttribute="trailing" secondItem="Upa-Qg-TL6" secondAttribute="trailing" id="Pbn-8B-GsV"/>
+                            <constraint firstItem="UwL-1i-QZL" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="wfy-db-euE" secondAttribute="top" constant="-16" id="UlY-C0-Lr0"/>
+                            <constraint firstItem="UwL-1i-QZL" firstAttribute="top" secondItem="3vL-no-MUs" secondAttribute="bottom" constant="16" id="Wzc-ab-Ejr"/>
+                            <constraint firstItem="3vL-no-MUs" firstAttribute="top" secondItem="d50-iZ-u0f" secondAttribute="bottom" constant="48" id="XfY-mD-Hbw"/>
+                            <constraint firstItem="UwL-1i-QZL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="a8l-Fr-6fG"/>
+                            <constraint firstAttribute="trailing" secondItem="Upa-Qg-TL6" secondAttribute="trailing" constant="16" id="eyX-Xa-Blf"/>
+                            <constraint firstItem="d50-iZ-u0f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="lup-RX-RWI"/>
+                            <constraint firstAttribute="trailing" secondItem="UwL-1i-QZL" secondAttribute="trailing" constant="16" id="qE6-h0-V2s"/>
+                            <constraint firstItem="Upa-Qg-TL6" firstAttribute="top" secondItem="d50-iZ-u0f" secondAttribute="top" constant="16" id="y0i-8P-woA"/>
+                            <constraint firstItem="Cnl-cV-ryL" firstAttribute="top" secondItem="Upa-Qg-TL6" secondAttribute="bottom" constant="11" id="yJl-fp-mTP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
