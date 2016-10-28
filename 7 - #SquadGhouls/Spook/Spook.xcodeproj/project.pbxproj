@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		884D0DE41DC2C76F0048EA5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884D0DE31DC2C76F0048EA5B /* AppDelegate.swift */; };
+		884D0DE61DC2C76F0048EA5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884D0DE51DC2C76F0048EA5B /* ViewController.swift */; };
+		884D0DE91DC2C76F0048EA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884D0DE71DC2C76F0048EA5B /* Main.storyboard */; };
+		884D0DEB1DC2C76F0048EA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884D0DEA1DC2C76F0048EA5B /* Assets.xcassets */; };
+		884D0DEE1DC2C76F0048EA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884D0DEC1DC2C76F0048EA5B /* LaunchScreen.storyboard */; };
+		884D0DFC1DC2D45C0048EA5B /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884D0DFB1DC2D45C0048EA5B /* UserNotifications.framework */; };
+		884D0DFE1DC2D45C0048EA5B /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884D0DFD1DC2D45C0048EA5B /* UserNotificationsUI.framework */; };
+		884D0E011DC2D45C0048EA5B /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884D0E001DC2D45C0048EA5B /* NotificationViewController.swift */; };
+		884D0E041DC2D45C0048EA5B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884D0E021DC2D45C0048EA5B /* MainInterface.storyboard */; };
+		884D0E081DC2D45C0048EA5B /* SpookNotificationContent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 884D0DF91DC2D45C0048EA5B /* SpookNotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		884D0E061DC2D45C0048EA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 884D0DD81DC2C76F0048EA5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884D0DF81DC2D45C0048EA5B;
+			remoteInfo = SpookNotificationContent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		884D0E0C1DC2D45C0048EA5B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				884D0E081DC2D45C0048EA5B /* SpookNotificationContent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		884D0DE01DC2C76F0048EA5B /* Spook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		884D0DE31DC2C76F0048EA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		884D0DE51DC2C76F0048EA5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		884D0DE81DC2C76F0048EA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		884D0DEA1DC2C76F0048EA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		884D0DED1DC2C76F0048EA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		884D0DEF1DC2C76F0048EA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884D0DF91DC2D45C0048EA5B /* SpookNotificationContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SpookNotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		884D0DFB1DC2D45C0048EA5B /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		884D0DFD1DC2D45C0048EA5B /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		884D0E001DC2D45C0048EA5B /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		884D0E031DC2D45C0048EA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		884D0E051DC2D45C0048EA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		884D0DDD1DC2C76F0048EA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884D0DF61DC2D45C0048EA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884D0DFE1DC2D45C0048EA5B /* UserNotificationsUI.framework in Frameworks */,
+				884D0DFC1DC2D45C0048EA5B /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884D0DD71DC2C76F0048EA5B = {
+			isa = PBXGroup;
+			children = (
+				884D0DE21DC2C76F0048EA5B /* Spook */,
+				884D0DFF1DC2D45C0048EA5B /* SpookNotificationContent */,
+				884D0DFA1DC2D45C0048EA5B /* Frameworks */,
+				884D0DE11DC2C76F0048EA5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		884D0DE11DC2C76F0048EA5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884D0DE01DC2C76F0048EA5B /* Spook.app */,
+				884D0DF91DC2D45C0048EA5B /* SpookNotificationContent.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884D0DE21DC2C76F0048EA5B /* Spook */ = {
+			isa = PBXGroup;
+			children = (
+				884D0DE31DC2C76F0048EA5B /* AppDelegate.swift */,
+				884D0DE51DC2C76F0048EA5B /* ViewController.swift */,
+				884D0DE71DC2C76F0048EA5B /* Main.storyboard */,
+				884D0DEA1DC2C76F0048EA5B /* Assets.xcassets */,
+				884D0DEC1DC2C76F0048EA5B /* LaunchScreen.storyboard */,
+				884D0DEF1DC2C76F0048EA5B /* Info.plist */,
+			);
+			path = Spook;
+			sourceTree = "<group>";
+		};
+		884D0DFA1DC2D45C0048EA5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				884D0DFB1DC2D45C0048EA5B /* UserNotifications.framework */,
+				884D0DFD1DC2D45C0048EA5B /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		884D0DFF1DC2D45C0048EA5B /* SpookNotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				884D0E001DC2D45C0048EA5B /* NotificationViewController.swift */,
+				884D0E021DC2D45C0048EA5B /* MainInterface.storyboard */,
+				884D0E051DC2D45C0048EA5B /* Info.plist */,
+			);
+			path = SpookNotificationContent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		884D0DDF1DC2C76F0048EA5B /* Spook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884D0DF21DC2C76F0048EA5B /* Build configuration list for PBXNativeTarget "Spook" */;
+			buildPhases = (
+				884D0DDC1DC2C76F0048EA5B /* Sources */,
+				884D0DDD1DC2C76F0048EA5B /* Frameworks */,
+				884D0DDE1DC2C76F0048EA5B /* Resources */,
+				884D0E0C1DC2D45C0048EA5B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884D0E071DC2D45C0048EA5B /* PBXTargetDependency */,
+			);
+			name = Spook;
+			productName = Spook;
+			productReference = 884D0DE01DC2C76F0048EA5B /* Spook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		884D0DF81DC2D45C0048EA5B /* SpookNotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884D0E091DC2D45C0048EA5B /* Build configuration list for PBXNativeTarget "SpookNotificationContent" */;
+			buildPhases = (
+				884D0DF51DC2D45C0048EA5B /* Sources */,
+				884D0DF61DC2D45C0048EA5B /* Frameworks */,
+				884D0DF71DC2D45C0048EA5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpookNotificationContent;
+			productName = SpookNotificationContent;
+			productReference = 884D0DF91DC2D45C0048EA5B /* SpookNotificationContent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		884D0DD81DC2C76F0048EA5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MAD;
+				TargetAttributes = {
+					884D0DDF1DC2C76F0048EA5B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					884D0DF81DC2D45C0048EA5B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 884D0DDB1DC2C76F0048EA5B /* Build configuration list for PBXProject "Spook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 884D0DD71DC2C76F0048EA5B;
+			productRefGroup = 884D0DE11DC2C76F0048EA5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				884D0DDF1DC2C76F0048EA5B /* Spook */,
+				884D0DF81DC2D45C0048EA5B /* SpookNotificationContent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		884D0DDE1DC2C76F0048EA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884D0DEE1DC2C76F0048EA5B /* LaunchScreen.storyboard in Resources */,
+				884D0DEB1DC2C76F0048EA5B /* Assets.xcassets in Resources */,
+				884D0DE91DC2C76F0048EA5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884D0DF71DC2D45C0048EA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884D0E041DC2D45C0048EA5B /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		884D0DDC1DC2C76F0048EA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884D0DE61DC2C76F0048EA5B /* ViewController.swift in Sources */,
+				884D0DE41DC2C76F0048EA5B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884D0DF51DC2D45C0048EA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884D0E011DC2D45C0048EA5B /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		884D0E071DC2D45C0048EA5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884D0DF81DC2D45C0048EA5B /* SpookNotificationContent */;
+			targetProxy = 884D0E061DC2D45C0048EA5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		884D0DE71DC2C76F0048EA5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884D0DE81DC2C76F0048EA5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		884D0DEC1DC2C76F0048EA5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884D0DED1DC2C76F0048EA5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		884D0E021DC2D45C0048EA5B /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884D0E031DC2D45C0048EA5B /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		884D0DF01DC2C76F0048EA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		884D0DF11DC2C76F0048EA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884D0DF31DC2C76F0048EA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mad.Spook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		884D0DF41DC2C76F0048EA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mad.Spook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		884D0E0A1DC2D45C0048EA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpookNotificationContent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mad.Spook.SpookNotificationContent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		884D0E0B1DC2D45C0048EA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpookNotificationContent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mad.Spook.SpookNotificationContent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884D0DDB1DC2C76F0048EA5B /* Build configuration list for PBXProject "Spook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884D0DF01DC2C76F0048EA5B /* Debug */,
+				884D0DF11DC2C76F0048EA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884D0DF21DC2C76F0048EA5B /* Build configuration list for PBXNativeTarget "Spook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884D0DF31DC2C76F0048EA5B /* Debug */,
+				884D0DF41DC2C76F0048EA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		884D0E091DC2D45C0048EA5B /* Build configuration list for PBXNativeTarget "SpookNotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884D0E0A1DC2D45C0048EA5B /* Debug */,
+				884D0E0B1DC2D45C0048EA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 884D0DD81DC2C76F0048EA5B /* Project object */;
+}
